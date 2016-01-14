@@ -6,7 +6,8 @@
 /* applies to any <p> descendants of an element of class "example-class-selector" */
 .example-class-selector p {
 	/* Colors are in hexadecimal: http://www.colorpicker.com/ */	
-	color: #CC00AA;
+	color: #deebf7;
+     font: 
 }
 
 
@@ -14,7 +15,7 @@
    the CSS to the page. feel free to remove it once the link is working. */
 body {
      border: 1px dotted gray;
-     padding: 20px;
+     padding: 10px;
 }
 
 .jumbotron {
@@ -32,4 +33,10 @@ body {
      right: 0;
      position: absolute;
      z-index: -1;	
+}
+
+.project {
+    background-color: #7335F0;
+    font-variant: small-caps;
+    padding: 5px;
 }
